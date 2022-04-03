@@ -1,0 +1,24 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn {
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+    border-radius: 200px;
+    border: none;
+    color: blcak;
+    background-color: #E0C3FC;
+    font-size: 32px;
+}

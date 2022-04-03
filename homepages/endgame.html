@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>end-game</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/endgame.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <h1><span class="winner"></span>
+                wins!
+            </h1>
+            <button class="btn"> end game</button>
+        </div>
+    </div>
+
+
+
+    <script>
+        const winner = document.querySelector(".winner");
+        let result = sessionStorage.getItem("winner");
+        winner.innerHTML = result;
+
+        //go to start page
+        let btn = document.querySelector(".btn");
+        btn.addEventListener("click", () => {
+            console.log("hello");
+            window.location = "../index.html";
+        })
+    </script>
+</body>
+
+</html>
+
+
+
+
+<!-- taskk -->
+<!-- 
+    1] styling
+    2] how to tell winner on the last page 
+    3] after that restart button option  -->

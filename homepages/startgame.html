@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-scissor</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/startgame.css">
+</head>
+
+<body>
+    <h1>Rock-Paper-Scissor</h1>
+
+    <div class="a-grid a-container">
+        <div class="component">
+            <div class="wrapper">
+                <h3>player</h3>
+                <h5>score: <span class="playerScore">0</span></h5>
+            </div>
+            <div class="b-grid">
+                <div class="playerSelects" id="rock"><img src="../images/rock.png" alt="rock"></div>
+                <div class="playerSelects" id="paper"><img src="../images/paper.png" alt="paper"></div>
+                <div class="playerSelects" id="scissor"><img src="../images/scissors.png" alt="Scissor"></div>
+            </div>
+        </div>
+        <div class="component">
+            <div class="wrapper">
+                <h3>computer</h3>
+                <h5>score: <span class="computerScore">0</span></h5>
+            </div>
+            <div class="b-grid">
+                <div class="computerSelects rock1" data-value="rock"><img src="../images/rock.png" alt="rock"></div>
+                <div class="computerSelects paper1" data-value="paper"><img src="../images/paper.png" alt="paper"></div>
+                <div class="computerSelects scissor1" data-value="scissor"><img src="../images/scissors.png"
+                        alt="Scissor"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/startgame.js"></script>
+</body>
+
+</html>
